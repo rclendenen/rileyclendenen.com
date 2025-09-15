@@ -8,229 +8,74 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">Riley Clendenen</span>
+            <div class="logo">Riley Clendenen</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
             </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#portfolio" class="nav-link">Portfolio</a>
-                <a href="#testimonials" class="nav-link">Testimonials</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-                <i class="fas fa-moon"></i>
-            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
+        <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="highlight">Riley</span> — 
-                        <span class="subtitle">remote assistant & website builder</span>
-                    </h1>
-                    <p class="hero-description">
-                        I'm a stay-at-home mom of two based in Mansfield, TX, who loves staying busy helping others succeed. 
-                        Whether you need reliable remote assistance or a beautiful website, I bring attention to detail, 
-                        empathy, and genuine care to every project.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                        <a href="#portfolio" class="btn btn-secondary">See My Work</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Riley Clendenen - Professional headshot" class="hero-photo">
-                        <div class="image-overlay"></div>
-                    </div>
+                <h1>Hi, I'm Riley</h1>
+                <h2>Remote Assistant & Website Builder</h2>
+                <p>I'm a stay-at-home mom of two based in Mansfield, TX, who loves staying busy helping others succeed. Whether you need reliable remote assistance or a beautiful website, I bring attention to detail, empathy, and genuine care to every project.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#portfolio" class="btn btn-secondary">See My Work</a>
                 </div>
             </div>
-        </div>
-        <div class="hero-shape">
-            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
-            </svg>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Riley Clendenen">
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Getting to know the person behind the work</p>
-            </div>
-            
+            <h2>About Me</h2>
             <div class="about-content">
-                <div class="about-images">
-                    <div class="image-grid">
-                        <div class="image-item">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Riley - Professional portrait" class="about-photo">
-                            <div class="image-label">Me</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Outdoor adventure" class="about-photo">
-                            <div class="image-label">Outdoors</div>
-                        </div>
-                        <div class="image-item">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Working from home" class="about-photo">
-                            <div class="image-label">Working</div>
-                        </div>
-                    </div>
+                <div class="about-text">
+                    <p>As a stay-at-home mom of two amazing kids, I discovered that I thrive when I'm helping others succeed. What started as a way to stay connected to the professional world while raising my children has blossomed into a fulfilling career supporting authors, realtors, and businesses.</p>
+                    <p>I'm motivated by the joy of making someone's day easier, whether that's organizing their schedule, managing their communications, or building them a website that truly represents their vision. There's something incredibly rewarding about being the reliable support system that allows others to focus on what they do best.</p>
+                    <p>When I'm not working, you'll find me exploring the great outdoors with my family, reading a good book, or planning our next adventure. I believe that balance is key to being your best self, both personally and professionally.</p>
                 </div>
-                
-                <div class="about-story">
-                    <h3>My Journey</h3>
-                    <p>
-                        As a stay-at-home mom of two amazing kids, I discovered that I thrive when I'm helping others succeed. 
-                        What started as a way to stay connected to the professional world while raising my children has 
-                        blossomed into a fulfilling career supporting authors, realtors, and businesses.
-                    </p>
-                    <p>
-                        I'm motivated by the joy of making someone's day easier, whether that's organizing their schedule, 
-                        managing their communications, or building them a website that truly represents their vision. 
-                        There's something incredibly rewarding about being the reliable support system that allows others 
-                        to focus on what they do best.
-                    </p>
-                    <p>
-                        When I'm not working, you'll find me exploring the great outdoors with my family, reading a good book, 
-                        or planning our next adventure. I believe that balance is key to being your best self, both personally 
-                        and professionally.
-                    </p>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Outdoor adventure">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Pick Me Section -->
-    <section id="why-pick-me" class="why-pick-me">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Why Pick Me?</h2>
-                <p class="section-subtitle">What sets me apart from the rest</p>
-            </div>
-            
-            <div class="qualities-grid">
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Reliability</h3>
-                    <p>You can count on me to be there when you need me. I understand the importance of deadlines and commitments, and I take them seriously.</p>
+            <h2>What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Remote Assistance</h3>
+                    <p>Calendar management, email handling, research, and administrative support to keep your business running smoothly.</p>
                 </div>
-                
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>Attention to Detail</h3>
-                    <p>I notice the little things that make a big difference. From catching typos to ensuring every element is perfectly aligned, I care about quality.</p>
+                <div class="service-card">
+                    <h3>Website Building</h3>
+                    <p>Beautiful, responsive websites that represent your brand and help you connect with your ideal clients.</p>
                 </div>
-                
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Empathy</h3>
-                    <p>I genuinely care about your success and understand the challenges you face. My goal is to make your life easier, not just complete tasks.</p>
-                </div>
-                
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3>Communication</h3>
-                    <p>Clear, timely communication is essential. I keep you informed every step of the way and am always available to answer questions.</p>
-                </div>
-                
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <h3>Life-Work Balance</h3>
-                    <p>As a mom, I understand the importance of balance. I bring that same understanding to help you maintain healthy boundaries in your work.</p>
-                </div>
-                
-                <div class="quality-card">
-                    <div class="quality-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Growth Mindset</h3>
-                    <p>I'm always learning and adapting. Whether it's new tools, technologies, or ways of working, I'm committed to continuous improvement.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Past Experience</h2>
-                <p class="section-subtitle">Building skills and making a difference</p>
-            </div>
-            
-            <div class="experience-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Remote Assistant - Author</h3>
-                        <p class="timeline-period">2022 - Present</p>
-                        <ul class="timeline-skills">
-                            <li>Managed author's calendar and travel arrangements</li>
-                            <li>Coordinated book launch events and promotional activities</li>
-                            <li>Handled correspondence and social media management</li>
-                            <li>Organized research materials and manuscript preparation</li>
-                            <li>Developed strong project management and communication skills</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Remote Assistant - Realtor</h3>
-                        <p class="timeline-period">2021 - 2022</p>
-                        <ul class="timeline-skills">
-                            <li>Managed client database and CRM systems</li>
-                            <li>Coordinated property showings and open houses</li>
-                            <li>Prepared marketing materials and listing presentations</li>
-                            <li>Handled transaction coordination and documentation</li>
-                            <li>Gained expertise in real estate processes and client relations</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Website Builder & Designer</h3>
-                        <p class="timeline-period">2020 - Present</p>
-                        <ul class="timeline-skills">
-                            <li>Created responsive websites using HTML, CSS, and JavaScript</li>
-                            <li>Designed user-friendly interfaces with focus on accessibility</li>
-                            <li>Implemented SEO best practices and performance optimization</li>
-                            <li>Collaborated with clients to bring their vision to life</li>
-                            <li>Stayed current with web development trends and technologies</li>
-                        </ul>
-                    </div>
+                <div class="service-card">
+                    <h3>Project Management</h3>
+                    <p>Organizing and coordinating projects to ensure everything runs on time and within budget.</p>
                 </div>
             </div>
         </div>
@@ -239,124 +84,22 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Portfolio</h2>
-                <p class="section-subtitle">Websites I've built with care and attention to detail</p>
-            </div>
-            
+            <h2>My Work</h2>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Local Business Website" class="portfolio-img">
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Mansfield Family Dentistry</h3>
-                        <p>A modern, responsive website for a local dental practice featuring appointment booking, service information, and patient testimonials.</p>
-                        <div class="portfolio-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Responsive Design</span>
-                        </div>
-                        <a href="#" class="portfolio-btn" target="_blank">View Live Site</a>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Website Project">
+                    <h3>Local Business Website</h3>
+                    <p>A modern, responsive website for a local business featuring clean design and easy navigation.</p>
                 </div>
-                
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Author Website" class="portfolio-img">
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Sarah Johnson - Author</h3>
-                        <p>A literary website showcasing the author's books, blog, and upcoming events with an elegant, reader-friendly design.</p>
-                        <div class="portfolio-tech">
-                            <span class="tech-tag">WordPress</span>
-                            <span class="tech-tag">Custom Theme</span>
-                            <span class="tech-tag">SEO Optimized</span>
-                            <span class="tech-tag">Blog Integration</span>
-                        </div>
-                        <a href="#" class="portfolio-btn" target="_blank">View Live Site</a>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Website Project">
+                    <h3>Author Portfolio</h3>
+                    <p>An elegant website showcasing an author's books, blog, and upcoming events.</p>
                 </div>
-                
                 <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Real Estate Website" class="portfolio-img">
-                        <div class="portfolio-overlay">
-                            <a href="#" class="portfolio-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3>Texas Dream Homes</h3>
-                        <p>A comprehensive real estate website with property listings, virtual tours, and client portal integration for a local realtor.</p>
-                        <div class="portfolio-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Property API</span>
-                        </div>
-                        <a href="#" class="portfolio-btn" target="_blank">View Live Site</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">What Clients Say</h2>
-                <p class="section-subtitle">Hearing from the people I've had the pleasure to work with</p>
-            </div>
-            
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Riley has been an absolute lifesaver! Her attention to detail and proactive communication have made my work so much more manageable. She anticipates needs I didn't even know I had."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Sarah M.</h4>
-                            <span>Author & Speaker</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Working with Riley on my website was a dream. She understood my vision immediately and brought it to life better than I could have imagined. The site has helped me connect with so many new clients."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Michael R.</h4>
-                            <span>Real Estate Agent</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Riley's reliability and professionalism are unmatched. She handles everything with such care and always goes above and beyond. I couldn't run my business without her support."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Jennifer L.</h4>
-                            <span>Small Business Owner</span>
-                        </div>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Website Project">
+                    <h3>Real Estate Site</h3>
+                    <p>A comprehensive website with property listings and client portal integration.</p>
                 </div>
             </div>
         </div>
@@ -365,68 +108,34 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Let's Work Together</h2>
-                <p class="section-subtitle">Ready to get started? I'd love to hear from you!</p>
-            </div>
-            
+            <h2>Let's Work Together</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Get in Touch</h3>
                     <p>I'm always excited to take on new projects and help bring your ideas to life. Whether you need remote assistance or a beautiful website, let's discuss how I can support your goals.</p>
-                    
                     <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>riley@rileyclendenen.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Mansfield, TX</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-clock"></i>
-                            <span>Available Monday - Friday, 9 AM - 5 PM CST</span>
-                        </div>
-                    </div>
-                    
-                    <div class="social-links">
-                        <a href="#" class="social-link" target="_blank" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-link" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="#" class="social-link" target="_blank" aria-label="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link" target="_blank" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                        <p><strong>Email:</strong> riley@rileyclendenen.com</p>
+                        <p><strong>Location:</strong> Mansfield, TX</p>
+                        <p><strong>Availability:</strong> Monday - Friday, 9 AM - 5 PM CST</p>
                     </div>
                 </div>
-                
-                <form class="contact-form" id="contact-form">
+                <form class="contact-form">
                     <div class="form-group">
-                        <label for="name">Name *</label>
+                        <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
-                    
                     <div class="form-group">
-                        <label for="email">Email *</label>
+                        <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
                     </div>
-                    
                     <div class="form-group">
-                        <label for="subject">Subject *</label>
+                        <label for="subject">Subject</label>
                         <input type="text" id="subject" name="subject" required>
                     </div>
-                    
                     <div class="form-group">
-                        <label for="message">Message *</label>
+                        <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
@@ -436,44 +145,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>Riley Clendenen</h3>
-                    <p>Remote Assistant & Website Builder</p>
-                    <p>Based in Mansfield, TX</p>
-                </div>
-                
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Quick Links</h4>
-                        <a href="#about">About</a>
-                        <a href="#experience">Experience</a>
-                        <a href="#portfolio">Portfolio</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Services</h4>
-                        <a href="#contact">Remote Assistance</a>
-                        <a href="#contact">Website Building</a>
-                        <a href="#contact">Project Management</a>
-                        <a href="#contact">Consultation</a>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Connect</h4>
-                        <a href="#" target="_blank">GitHub</a>
-                        <a href="#" target="_blank">LinkedIn</a>
-                        <a href="#" target="_blank">Twitter</a>
-                        <a href="#" target="_blank">Instagram</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2024 Riley Clendenen. All rights reserved.</p>
-                <p>Made with <i class="fas fa-heart"></i> in Mansfield, TX</p>
-            </div>
+            <p>&copy; 2024 Riley Clendenen. All rights reserved.</p>
+            <p>Based in Mansfield, TX</p>
         </div>
     </footer>
 
